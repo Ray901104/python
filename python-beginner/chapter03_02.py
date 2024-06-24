@@ -88,3 +88,23 @@ print(dir(im_str))
 
 for i in im_str:
     print(i)
+
+print()
+
+# 슬라이싱
+str_sl = "Nice Python"
+print(str_sl[0:3])  # 0 ~ 2 까지
+print(str_sl[5:11])
+print(str_sl[5:])
+print(str_sl[:len(str_sl)])
+print(str_sl[1:9:2])
+print(str_sl[-5:])
+print(str_sl[1:-2])
+print(str_sl[::2])
+print(str_sl[::-1])
+print()
+
+# 아스키 코드
+a = 'z'
+print(ord(a))  # 문자 -> 아스키 코드
+print(chr(122))  # 아스키 코드 -> 문자
